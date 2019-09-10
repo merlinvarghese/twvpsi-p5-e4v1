@@ -1,14 +1,14 @@
 package com.tw.vapasi;
 
 
-public class Vehicle implements Parkable {
-    final String registrationNumber;
+public class Vehicles implements Parkable {
+     String registrationNumber;
 
-    public Vehicle(String name) {
-        this.registrationNumber = name;
+    public Vehicles() {
     }
 
-    public String getName() {
-        return registrationNumber;
+    Vehicles(String registrationNumber) {
+        this.registrationNumber = registrationNumber;
     }
+
 }

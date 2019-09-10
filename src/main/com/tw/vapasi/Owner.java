@@ -1,4 +1,7 @@
 package com.tw.vapasi;
 
-public class Owner {
+//Undertands the status of parking Lot.
+interface Owner {
+    void notifyWhenParkingIsFull();
+    void notifyWhenParkingIsAvailable();
 }
